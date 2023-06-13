@@ -1,0 +1,266 @@
+@font-face {
+    font-family: Font;
+    src: url(./assets/himalaya-gfxdownload.ir/HIMALAYA-1.ttf);
+}
+.body {
+    background-image: url(./assets/1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.All {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Search{
+    height: 50px;
+    width: 300px;
+    font-family: Font;
+    margin-bottom: 50px;
+    border-radius: 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+#Search {
+    background-color: #1b3752;
+    font-family: Font;
+    opacity: 0.5;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px 25px;
+    border: solid white;
+}
+#Submit {
+    background-color: #1b3752;
+    font-family: Font;
+    opacity: 0.5;
+    color: white;
+    border: solid white;
+    width: 70px;
+    height: 40px;
+    border-radius: 25px 25px;
+}
+.Hit{
+    color: white;
+    height: 200px;
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    opacity: 0;
+}
+.degree{
+    height: 150px;
+    width: 300px;
+    font-family: Font;
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.City {
+    height: 50px;
+    width: 300px;
+    font-family: Font;
+    color:white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.Country {
+    height: 150px;
+    width: 300px;
+    font-family: Font;
+    color:white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Clock {
+    height: 100px;
+    width: 300px;
+    font-family: Font;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+#hour {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-left: 10px;
+}
+#minutes {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-left: 10px;
+}
+#seconds {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.Photo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+#Photo {
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+}
+
+@media (min-width:500px) and (max-width:1000px){
+    .Search{
+        height: 50px;
+        width: 500px;
+    }
+    #Search {
+        width: 300px;
+        height: 40px;
+    }
+    #Submit {
+        width: 100px;
+        height: 40px;
+        color: white;
+    }
+    .background-img {
+        height: 100vh;
+    }
+}
+@media (min-width:1000px){
+    .Search{
+        height: 50px;
+        width: 1000px;
+        margin-top: 100px;
+    }
+    #Search {
+        width: 50%;
+        height: 40px;
+    }
+    #Submit {
+        width: 200px;
+        height: 40px;
+    }
+    .Hit{
+        height: 200px;
+        width: 900px; 
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .degree{
+        height: 200px;
+        width: 300px;
+        font-size: 100px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .City {
+        height: 200px;
+        width: 300px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .Country {
+        height: 200px;
+        width: 300px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .Clock {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .Wach {
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+        margin-top: 130px;
+    }
+    #hour {
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+        margin-top: 130px;
+    }
+    #minutes {
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+        margin-top: 130px;
+    }
+    #seconds {
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+        margin-top: 130px;
+    }
+    .Photo {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 50px;
+    }
+.background-img {
+    height: 100vh;
+}
+}
+#Submit:hover{
+    opacity: 0.9;
+}
+#Submit:active{
+    opacity: 1;
+}
+#Search:hover{
+    opacity: 1;
+}
+.background-img {
+    height: 100vh;
+    width: 100vw;
+}
